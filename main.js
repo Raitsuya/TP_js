@@ -33,7 +33,6 @@ const addUser = (user) => {
     
 }
 
-addUser(newUser)
 
 
 console.log(JSON.stringify(newUser));
@@ -54,15 +53,5 @@ const Delete_User = (id) => {
 
 
 Get_User(1)
-Delete_User(9)
-
-
-
-
-
-
-
-
-
-
-
+Delete_User(10)
+addUser(newUser)
